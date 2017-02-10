@@ -1,15 +1,15 @@
 # Site settings
-title: COR-ZCP
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: ROC-ZCP
+description: 'Roc-Zcp '
 url: 'http://clean-cp.tech'
-baseurl: '/jekyll-uno/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Cor Zou'
+  name: 'Roc Zou'
   email: cleancp@163.com
-  facebook_username: joshgerdes
+  facebook_username: cleancp
   github_username:  cleancp
 
 defaults:
