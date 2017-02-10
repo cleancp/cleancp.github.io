@@ -1,7 +1,7 @@
 # Site
 title:              ROC-ZCP
-bio:                'Roc Zcp? Who know'
-description:        "Thank for Taylan Tatlı"
+bio:                'get busy living or get busy dying'
+description:        "Valar Morghulis Valar Dohaeris"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   zcp
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,20 +37,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              clean.zcp@gmail.com
+#twitter:            none
+facebook:           cleancp
+github-url:         cleancp
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          none
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              none
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
