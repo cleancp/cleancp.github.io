@@ -7,8 +7,8 @@ words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://cleancp.github.io/
+locale:             CN
+url:                https://clean-cp.tech/
 
 # Jekyll
 permalink:          /:title/
@@ -38,27 +38,21 @@ disqus_shortname:   zcp
   #ad-slot:
 #bing-verify:
 email:              clean.zcp@gmail.com
-<<<<<<< HEAD
 #twitter:            none
-=======
 #twitter:            username
 facebook:           cleancp
 github-url:         cleancp
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-<<<<<<< HEAD
 #instagram:          none
-=======
 #instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-<<<<<<< HEAD
 #steam:              none
-=======
 #steam:              username
 #dribbble:          username
 #youtube:           username
@@ -79,7 +73,8 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://github.com
+     base_url:
+#    base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
