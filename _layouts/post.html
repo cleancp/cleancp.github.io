@@ -35,9 +35,9 @@ layout: compress
                 {{ content }}
             </div>
         </div>
-        <!--<div class="entry-meta">-->
-	    {% include meta.html %}
-	    <<!--/div-->>
+        <div class="entry-meta">
+	    	{% include meta.html %}
+	    </div>
         {% if page.comments %}<div class="ds-thread" id="ds-thread" data-thread-key='{{ page.id }}' data-title="{{ page.title }}" data-url="{{site.url}}/{{ page.url }}"></div>
         {% endif %}
          {% include footer.html %}
