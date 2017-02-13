@@ -1,12 +1,9 @@
-{% if page.comments and site.disqus_shortname %}
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key='{{ page.id }}' data-title="{{ page.title }}" data-url="{{site.url}}/{{ page.url }}"></div>
-{% endif %}
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-{% if page.comments != false %}
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"RocZou"};
+var duoshuoQuery = {short_name:"clean-cptech"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -17,5 +14,3 @@ var duoshuoQuery = {short_name:"RocZou"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
-{% endif %}	
-	
