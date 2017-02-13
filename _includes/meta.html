@@ -1,12 +1,12 @@
-
-<span class="entry-tags" style="align-items: center;">
+<br />
+<hr />
+<div class="entry-tags">
 	{% for tag in page.tags %}
 	<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag">
 		<span class="term">{{ tag }}</span>
 	</a>
 	{% unless forloop.last %}{% endunless %}{% endfor %}
-</span>
-
+</div>
 <div class="ds-share flat" data-thread-key="{{ page.id }}"
      data-title="{{ page.title }}"
      data-content=""
