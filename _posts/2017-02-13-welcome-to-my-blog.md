@@ -20,57 +20,57 @@ Jekyll使用
 
 ## HTML Elements
 
-{% highlight html linenos %}
+{% highlight html%}
 # Heading 1
 {% endhighlight %}
 # Heading 1
 
-{% highlight html linenos %}
+{% highlight html%}
 ## Heading 2
 {% endhighlight %}
 ## Heading 2
 
-{% highlight html linenos %}
+{% highlight html   %}
 ### Heading 3
 {% endhighlight %}
 ### Heading 3
 ### Body text
 
-{% highlight html linenos %}
+{% highlight html   %}
 #### Heading 4
 {% endhighlight %}
 #### Heading 4
 
-{% highlight html linenos %}
+{% highlight html   %}
 ##### Heading 5
 {% endhighlight %}
 ##### Heading 5
 
-{% highlight html linenos %}
+{% highlight html   %}
 ###### Heading 6
 {% endhighlight %}
 ###### Heading 6
 
-{% highlight html linenos %}
+{% highlight html   %}
 **This is strong**
 {% endhighlight %}
 **This is strong**
 
-{% highlight html linenos %}
+{% highlight html   %}
 ![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
 {: .image-right}
 {% endhighlight %}
 ![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
 {: .image-right}
 
-{% highlight html linenos %}
+{% highlight html   %}
 *This is emphasized*
 {% endhighlight %}
 *This is emphasized*
 
 
 ### Blockquotes
-{% highlight html linenos %}
+{% highlight html   %}
 > Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 {% endhighlight %}
 > Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
@@ -78,7 +78,7 @@ Jekyll使用
 ## List Types
 
 ### Ordered Lists
-{% highlight html linenos %}
+{% highlight html   %}
 1. Item one
    1. sub item one
    2. sub item two
@@ -92,7 +92,7 @@ Jekyll使用
 2. Item two
 
 ### Unordered Lists
-{% highlight html linenos %}
+{% highlight html   %}
 * Item one
 * Item two
 * Item three
@@ -102,7 +102,7 @@ Jekyll使用
 * Item three
 
 ## Tables
-{% highlight html linenos %}
+{% highlight html   %}
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
@@ -127,7 +127,7 @@ Jekyll使用
 
 
 ## Code Snippets
-{% highlight html linenos %}
+{% highlight html   %}
 {% highlight css %}
 #container {
   float: left;
@@ -145,7 +145,7 @@ Jekyll使用
 }
 {% endhighlight %}
 ## Buttons
-{% highlight html linenos %}
+{% highlight html   %}
 `.btn`
 {% endhighlight %}
 `.btn`
