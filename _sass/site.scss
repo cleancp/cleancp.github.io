@@ -103,7 +103,7 @@ body {
 .wrapper {
 	width: 75%;
 	max-width: 850px;
-	margin: 4rem auto;
+	margin: 4rem auto 0em;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
@@ -136,7 +136,7 @@ body {
 #ds-thread {
     width: 75%;
     max-width: 850px;
-    margin: -3rem auto 4rem;
+    margin: 0rem auto 4rem;
     background: $white;
     color: $color_tuatara;
     padding: 2em;
