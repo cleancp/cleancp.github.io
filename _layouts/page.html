@@ -24,7 +24,8 @@ layout: compress
                 {{ content }}
             </div>
         </div>
-        <div id="ds-thread" class="ds-thread"  data-thread-key='{{ page.id }}' data-title="{{ page.title }}" data-url="{{site.url}}/{{ page.url }}"></div>
+        {% if page.comments %}<div id="ds-thread" data-thread-key='{{ page.id }}' data-title="{{ page.title }}" data-url="{{site.url}}/{{ page.url }}"></div>
+        {% endif %}
         {% include footer.html %}
     </header>
     
