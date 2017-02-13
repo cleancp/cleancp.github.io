@@ -13,8 +13,8 @@ comments: true
 ---
 
 开始个人博客第一天
-Don't need too much talk ,Displays it;
-Jekyll使用
+
+Don't need too much talk , Displays it.
 
 ## HTML Elements
 {% highlight html%}
