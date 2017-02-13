@@ -13,13 +13,10 @@ comments: true
 ---
 
 开始个人博客第一天
-Don't Too Much Talk Show With Me;
-
-
+Don't need too much talk ,Displays it;
 Jekyll使用
 
 ## HTML Elements
-
 {% highlight html%}
 # Heading 1
 {% endhighlight %}
@@ -34,6 +31,7 @@ Jekyll使用
 ### Heading 3
 {% endhighlight %}
 ### Heading 3
+
 ### Body text
 
 {% highlight html   %}
@@ -57,11 +55,12 @@ Jekyll使用
 **This is strong**
 
 {% highlight html   %}
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
+![Smithsonian Image]({{site.url}}/assets/img/logo.png)
+{: .image-center}
 {% endhighlight %}
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
+
+![Smithsonian Image]({{site.url}}/assets/img/logo.png)
+{: .image-center}
 
 {% highlight html   %}
 *This is emphasized*
@@ -127,15 +126,6 @@ Jekyll使用
 
 
 ## Code Snippets
-{% highlight html   %}
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}
-{% endhighlight %}
 
 {% highlight css %}
 #container {
