@@ -1,37 +1,19 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: 简单介绍
+tags: [about, Jekyll, me]
+date: 2017-02-14
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+一名java开发小白
 
-## Preview
+坐标在深圳
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## 联系方式
+* Email:<a href="mailto:clean.zcp@gmail.com"><b>clean.zcp@gmail.com</b></a>
+* Github:<a href="https://github.com/cleancp"><b>@cleancp</b></a>
+* Sina:<a href="http://weibo.com/RocZou"><b>@RocZcp</b></a>
+* CSDN:<a href="http://blog.csdn.net/cleancp"><b>@cleancp</b></a>
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+生命可以归结于一种简单的选择,忙着生 或 忙着死。
